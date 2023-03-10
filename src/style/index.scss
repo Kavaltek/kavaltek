@@ -1,0 +1,11 @@
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./home.scss";
+@font-face {
+  font-family: CircularStdBook;
+  src: url(./../assets/fonts/CircularStdBook.ttf);
+}
+body{
+  font-family: CircularStdBook;
+  background: #fff;
+  color: #111;
+}

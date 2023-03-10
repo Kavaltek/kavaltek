@@ -1,0 +1,86 @@
+.h-100{
+  width: 100vh;
+}
+.jumbotron{
+  h1{
+    font-size: 55px;
+  }
+  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .btn-primary{
+    background: #d6fa52 !important;
+    border: none !important;
+    color: #111 !important;
+    height: 45px;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
+    &:hover{
+      background: #bde335 !important;
+    }
+  }
+  .btn-dark{
+    background: #111 !important;
+    border: none !important;
+    color: #fff !important;
+    height: 45px;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
+    &:hover{
+      background: #000 !important;
+    }
+  }
+  .display-4{
+    font-weight: 100px !important;
+  }
+  p{
+    opacity: 0.5;
+  }
+}
+.jumbotron-cards{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  .card{
+    transition: 0.2s;
+    .card-body{
+      padding: 30px;
+      font-size: 14px !important;
+    }
+    &:hover{
+      transition: 0.2s;
+      background: #d6fa52 !important;
+      border: 1px solid#d6fa52 !important;
+    }
+  }
+}
+.logos{
+  padding-bottom: 70px;
+}
+.jumbotron-sobre{
+  height: 100vh;
+  img{
+    border-radius: 20px;
+  }
+  .btn-primary{
+    background: #d6fa52 !important;
+    border: none !important;
+    color: #111 !important;
+    height: 45px;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
+    &:hover{
+      background: #bde335 !important;
+    }
+  }
+  .btn-dark{
+    background: #111 !important;
+    border: none !important;
+    color: #fff !important;
+    height: 45px;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
+    &:hover{
+      background: #000 !important;
+    }
+  }
+}
