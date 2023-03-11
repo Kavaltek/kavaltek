@@ -100,27 +100,7 @@ function Home() {
       </Container>
     </section>
     <section className='jumbotron-sobre d-flex align-items-center'>
-      <Container>
-        <Row>
-          <Col md={5}>
-            <h4><b>Lorem, ipsum dolor sit amet consecteturipsum dolor sit amet consecteturipsum dolor sit amet consectetur adipisicing elit.</b></h4> 
-            <img src={img2}  className="img-fluid mt-4"/>
-            <div className='mt-4'>
-            <button 
-            type="button" 
-            className="btn btn-dark">
-              join now <HiOutlineChevronRight className='ms-4'/>
-            </button>
-            </div>
-          </Col>
-          <Col md={5} className="d-flex align-items-center">
-            <div>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam sed iste perferendis facere eveniet modi non asperiores assumenda voluptatibus harum odio, amet commodi quaerat. Eaque deserunt accusamus velit voluptates quod!
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam sed iste perferendis facere eveniet modi non asperiores assumenda voluptatibus harum odio, amet commodi quaerat. Eaque deserunt accusamus velit voluptates quod!
-            </div>
-          </Col>
-        </Row>
-      </Container>
+     
     </section>
   </main>
 }
