@@ -1,3 +1,8 @@
+.navbar{
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  background: #fff;
+}
 .h-100{
   width: 100vh;
 }
@@ -5,8 +10,8 @@
   h1{
     font-size: 55px;
   }
-  height: 100vh;
-  padding-top: 100px;
+  height: 120vh;
+  padding-top: 30px;
   padding-bottom: 100px;
   .btn-primary{
     background: #d6fa52 !important;
@@ -53,13 +58,84 @@
     }
   }
 }
-.logos{
-  padding-bottom: 70px;
-}
 .jumbotron-sobre{
-  height: 100vh;
-  img{
-    border-radius: 20px;
+  padding-top:80px;
+  padding-bottom: 80px;
+  background: #d6fa52 !important;
+}
+.jumbotron-produts{
+  padding-top:100px;
+  padding-bottom: 100px;
+  .btn-primary{
+    background: #d6fa52 !important;
+    border: none !important;
+    color: #111 !important;
+    height: 45px;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
+    &:hover{
+      background: #bde335 !important;
+    }
+  }
+}
+.jumbotron-dicas{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(./../assets/img4.jpg)fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff !important;
+  .btn-primary{
+    background: #d6fa52 !important;
+    border: none !important;
+    color: #111 !important;
+    height: 45px;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
+    &:hover{
+      background: #bde335 !important;
+    }
+  }
+}
+.jumbotron-dicas2{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .btn-primary{
+    background: #d6fa52 !important;
+    border: none !important;
+    color: #111 !important;
+    height: 45px;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
+    &:hover{
+      background: #bde335 !important;
+    }
+  }
+  .btn-dark{
+    background: #111 !important;
+    border: none !important;
+    color: #fff !important;
+    height: 45px;
+    padding-left: 30px !important;
+    padding-right: 10px !important;
+    &:hover{
+      background: #000 !important;
+    }
+  }
+}
+.jumbotron-contact{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .form-control{
+    font-size: 14px;
+    box-shadow: none !important;
+  }
+
+  input{
+    font-size: 14px;
+    height: 45px;
+    box-shadow: none !important;
   }
   .btn-primary{
     background: #d6fa52 !important;
@@ -83,4 +159,12 @@
       background: #000 !important;
     }
   }
+}
+.logos{
+  padding-bottom: 70px;
+}
+
+.fooder{
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
